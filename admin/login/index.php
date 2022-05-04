@@ -36,7 +36,7 @@ if (isset($_POST) && !empty($_POST)) {
 			<div class="d-flex flex-column align-content-end">
 				<div class="app-auth-body mx-auto">
 					<!-- <div class="app-auth-branding mb-4"><a class="app-logo" href="index.html"><img class="logo-icon me-2" src="assets/images/app-logo.svg" alt="logo"></a></div> -->
-					<h2 class="auth-heading text-center mb-5">เข้าสู่ระบบจองคิว SM FOOTBALL CLUB</h2>
+					<h2 class="auth-heading text-center mb-5">เข้าสู่ระบบการจัดการข้อมูลการจองสนามและอุปกรณ์กีฬาฟุตบอล <br> SM FOOTBALL CLUB</h2>
 					<div class="auth-form-container text-start">
 						<form action="" method="post" class="auth-form login-form">
 							<div class="email mb-3">
@@ -65,7 +65,7 @@ if (isset($_POST) && !empty($_POST)) {
 							</div>
 							<!--//form-group-->
 							<div class="text-center">
-								<button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">เข้าสู่ระบบ</button>
+								<button type="submit" class="btn-color w-100 theme-btn mx-auto">เข้าสู่ระบบ</button>
 							</div>
 						</form>
 
@@ -113,3 +113,19 @@ if (isset($_POST) && !empty($_POST)) {
 </body>
 
 </html>
+<style>
+	h1 ,.h1,h2, .h2,h3, .h3,h4 ,.h4{
+		font-weight: 500 !important;
+	}
+	.form-control {
+		border-color: blue;
+		border-radius: 10px;
+		color: black !important;
+	}
+	.btn-color {
+		background-color: #0275d8;
+		color: white;
+		border-radius: 10px;
+		border: solid 1px !important;
+	}
+</style>

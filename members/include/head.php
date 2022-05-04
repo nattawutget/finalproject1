@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 
 <style>
@@ -64,5 +65,24 @@
 
     * {
         font-family: "Kanit";
+    }
+    .btn-color {
+		margin-top: 25px;
+		background-color: #0275d8;
+		color: white;
+		border-radius: 10px;
+	}
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    th,
+    .th,
+    .btn {
+        font-weight: 500 !important;
     }
 </style>

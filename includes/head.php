@@ -53,5 +53,18 @@
 *{
     font-family: 'Kanit';
 }
+h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    th,
+    .th,
+    .btn {
+        font-weight: 500 !important;
+    }
     /* css list manu */
 </style>
