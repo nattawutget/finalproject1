@@ -119,6 +119,7 @@ if (isset($_POST) && !empty($_POST)) {
 		border-color: blue;
 		border-radius: 10px;
 		color: black !important;
+        margin: auto !important;
 	}
 
 	.btn-back {
@@ -128,7 +129,6 @@ if (isset($_POST) && !empty($_POST)) {
 
 	.mb-1 {
 		margin-bottom: 20px !important;
-		font-weight: 100 !important;
 	}
 
 	.text-center {

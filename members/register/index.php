@@ -60,7 +60,7 @@ if (isset($_POST) && !empty($_POST)) {
 			<div class="d-flex flex-column align-content-end">
 				<div class="app-auth-body mx-auto">
 					<!-- <div class="app-auth-branding mb-4"><a class="app-logo" href="index.html"><img class="logo-icon me-2" src="assets/images/app-logo.svg" alt="logo"></a></div> -->
-					<h2 class="auth-heading text-center mb-1 pagin-head">สมัครสมาชิกระบบการจัดการข้อมูลการจองสนามและอุปกรณ์กีฬาฟุตบอล <br>SM FOOTBALL CLUB</h2>
+					<h2 class="auth-heading text-center pagin-head">สมัครสมาชิกระบบการจัดการข้อมูลการจองสนามและอุปกรณ์กีฬาฟุตบอล <br>SM FOOTBALL CLUB</h2>
 					<div class="auth-form-container text-start">
 						<form action="" method="post" class="auth-form register-form">
 							<div class="email mb-1">

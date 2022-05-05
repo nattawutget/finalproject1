@@ -45,7 +45,7 @@
         min-height: 100%
     }
 
-    @font-face {
+    /* @font-face {
         src: url("../fonts/Kanit-Bold.ttf");
         font-family: "Kanit";
         font-weight: bold;
@@ -57,12 +57,27 @@
         font-family: "Kanit";
         font-weight: 400;
 
-    }
+    } */
 
     * {
         font-family: "Kanit";
     }
-
+    
+    .form-control {
+		border-color: blue;
+		border-radius: 10px;
+		color: black !important;
+		margin: auto !important;
+		max-width: 400px;
+	}
+	.btn-color {
+		margin-top: 25px;
+		background-color: #0275d8;
+		color: white;
+		border-radius: 10px;
+		border: solid 1px !important;
+        max-width: 250px;
+	}
     h1,
     .h1,
     h2,
@@ -75,18 +90,5 @@
     .th,
     .btn {
         font-weight: 500 !important;
-    }
-
-    .btn-color {
-        background-color: #0275d8;
-        color: white;
-        border: solid 1px !important;
-        border-radius: 10px;
-    }
-
-    .form-control {
-        border-color: blue;
-        border-radius: 10px;
-        color: black !important;
     }
 </style>

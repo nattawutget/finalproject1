@@ -50,10 +50,25 @@
         background-color: gray;
         color: white !important;
     }
-*{
-    font-family: 'Kanit';
-}
-h1,
+    * {
+        font-family: "Kanit";
+    }
+    
+    .form-control {
+		border-color: blue;
+		border-radius: 10px;
+		color: black !important;
+		max-width: 400px;
+	}
+	.btn-color {
+		margin-top: 25px;
+		background-color: #0275d8;
+		color: white;
+		border-radius: 10px;
+		border: solid 1px !important;
+        max-width: 250px;
+	}
+    h1,
     .h1,
     h2,
     .h2,

@@ -256,3 +256,16 @@ if (isset($_POST) && !empty($_POST)) {
         readURL(this);
     });
 </script>
+<style>
+    	.btn {
+		margin-top: 25px;
+		background-color: #0275d8;
+		color: white;
+		border-radius: 10px;
+		border: solid 1px !important;
+        max-width: auto;
+	}
+    .form-control{
+        margin-right: auto !important;
+    }
+</style>

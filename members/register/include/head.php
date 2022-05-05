@@ -46,4 +46,35 @@
         display: inline-block;
         color: black !important;
     }
+    * {
+        font-family: "Kanit";
+    }
+    
+    .form-control {
+		border-color: blue;
+		border-radius: 10px;
+		color: black !important;
+		max-width: 400px;
+	}
+	.btn-color {
+		margin-top: 25px;
+		background-color: #0275d8;
+		color: white;
+		border-radius: 10px;
+		border: solid 1px !important;
+        max-width: 250px;
+	}
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    th,
+    .th,
+    .btn {
+        font-weight: 500 !important;
+    }
 </style>
