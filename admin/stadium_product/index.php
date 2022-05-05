@@ -94,3 +94,8 @@ $query = mysqli_query($connection, $sql);
 <?php
 mysqli_close($connection);
 ?>
+<style>
+    	h1 ,.h1,h2, .h2,h3, .h3,h4 ,.h4{
+		font-weight: 500 !important;
+	}
+</style>

@@ -17,6 +17,12 @@
 
     <!-- Data table js -->
     <link rel="stylesheet" href="//cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+
+    <!-- Kanit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 <style>
     .dataTables_wrapper .dataTables_length select {
@@ -37,5 +43,50 @@
         background-size: cover;
         height: 100vh;
         min-height: 100%
+    }
+
+    @font-face {
+        src: url("../fonts/Kanit-Bold.ttf");
+        font-family: "Kanit";
+        font-weight: bold;
+
+    }
+
+    @font-face {
+        src: url("../fonts/Kanit-Regular.ttf");
+        font-family: "Kanit";
+        font-weight: 400;
+
+    }
+
+    * {
+        font-family: "Kanit";
+    }
+
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    th,
+    .th,
+    .btn {
+        font-weight: 500 !important;
+    }
+
+    .btn-color {
+        background-color: #0275d8;
+        color: white;
+        border: solid 1px !important;
+        border-radius: 10px;
+    }
+
+    .form-control {
+        border-color: blue;
+        border-radius: 10px;
+        color: black !important;
     }
 </style>

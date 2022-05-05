@@ -16,7 +16,7 @@
          <div class="app-card app-card-settings shadow-sm p-4">
              <div class="app-card-body">
                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                     <a href="?page=<?= $_GET['page'] ?>&function=add" class="btn btn-primary text-white mb-4 float-right">เพิ่มข้อมูลผู้ดูเเลลระบบ</a>
+                     <a href="?page=<?= $_GET['page'] ?>&function=add" class="btn btn-color text-white mb-4 float-right">เพิ่มข้อมูลผู้ดูเเลลระบบ</a>
                  </div>
 
                  <table class="table  table-hover" id="tableall">
